@@ -76,7 +76,7 @@ section.main-info .container .left-content h1.title {
 }
 section.main-info .container .left-content .dots {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: -53px;
 }
 section.main-info .container .left-content p {
@@ -102,13 +102,13 @@ section.main-info .container .left-content button {
 
 section.main-info .container .right-content .ball {
   position: absolute;
-  top: 0px;
+  top: 0;
   transform: translateX(-50%);
   z-index: -1;
 }
 section.main-info .container .right-content .rect {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 120px;
   transform: translateY(50%);
   z-index: -1;
@@ -119,7 +119,7 @@ section.main-info .container .right-content .rect {
 section.clients .container {
   display: flex;
   justify-content: space-between;
-  padding: 0px 120px;
+  padding: 0 120px;
 }
 section.clients {
   margin-top: 140px;
@@ -187,7 +187,7 @@ section.cards .cards-info-wrapper {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 0px 0px 0px 120px;
+  padding: 0 0 0 120px;
   gap: 110px;
 }
 section.cards .cards-info-wrapper .info {
@@ -205,7 +205,7 @@ section.cards .cards-info-wrapper .cards {
 }
 section.cards .cards-info-wrapper .cards .layer {
   position: absolute;
-  right: 0px;
+  right: 0;
   z-index: -1;
   top: 120px;
 }
@@ -242,7 +242,7 @@ section.cards .cards-info-wrapper .cards .card-item {
   border-radius: 40px;
   padding: 39px 30px 57px 30px;
   border: 1px solid #f2f2f2;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
 }
 section.cards .cards-info-wrapper .cards .card-item .card-item-first {
   width: 121px;
